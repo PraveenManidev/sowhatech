@@ -1,0 +1,116 @@
+html{ scroll-behavior: smooth;    overflow-x: hidden;}
+ul{padding-left:22px;}
+a{text-decoration: none !important;color: #000 !important;display: inline-block !important;transition: all 0.3s}
+a:hover{color: #007bff!important;transition: all 0.3s}
+*{margin: 0;padding: 0;}
+.fa{transition: all 0.3s}
+a .fa:hover{color: #ffcd00 !important;transition: all 0.3s;}
+#nav-bar{position:sticky;top:0;z-index:10;}
+.navbar-nav li{padding:0 30px;}
+.navbar-nav li a{float:right;text-align:left;}
+#nav-bar ul li a:hover{color:#fdec6e!important;transform: scale(1.2);text-shadow:0px 0px 30px #fdec6e;-moz-transition: all 0.3s ease-in;-o-transition: all 0.3s ease-in;-webkit-transition: all 0.3s ease-in;transition: all 0.3s ease-in;}
+.carousel-item{width: auto;height: auto;}
+.navbar{background:#000000;}
+.navbar-toggler{background:#fff!important;}
+.nav-link{color:#fff!important;font-weight: 600;font-size:24px;}
+#slider{width:100%;}
+.slick-dots li button:before{font-size:0!important;}
+.banner h4{color:white;font-size: 28px;text-align: center;}
+.banner_height{height:650px;position: relative;}
+.banner_content .col-12{position: absolute;left: 0;right:0;bottom: 60px;}
+.banner{padding:0;margin:0 !important;}
+.banner li{background-position: center;background-size: cover;}
+.banner button.slick-next.slick-arrow,.banner button.slick-prev.slick-arrow { position: absolute;font-size: 0;}
+.banner button.slick-next.slick-arrow{left:auto;right:10px;opacity: 1;transition: all 0.3s}
+.banner button.slick-prev.slick-arrow {right:auto;left:10px;z-index: 9;opacity: 1;transition: all 0.3s}
+.banner button.slick-next.slick-arrow:before,.banner button.slick-prev.slick-arrow:before {opacity: 0;transition: all 0.3s}
+.banner:hover button.slick-next.slick-arrow:before,.banner:hover button.slick-prev.slick-arrow:before {opacity: 1;transition: all 0.3s}
+.banner button.slick-next.slick-arrow:before,.banner button.slick-prev.slick-arrow:before {font-size:20px;color: #ffcd00} 
+.banner button.slick-next.slick-arrow:before{content:'\f061'; font-family: FontAwesome !important;}
+.banner button.slick-prev.slick-arrow:before {content:'\f060'; font-family: FontAwesome !important;}
+.banner .slick-dots li {width:auto;}
+.banner .slick-dots li button {width:25px;height: 3px;border: 0;background: #fff;border:2px solid transparent;padding: 0;}
+.banner .slick-dots li.slick-active button {border:2px solid #ffcd00;background:#fff}
+.banner .slick-dots{bottom:10px;}
+/*-------About*********/
+#about{padding-top : 50px;padding-bottom:50px;color:#555;}
+#about .btn{margin-top :20px;margin-bottom:30px;}
+.about-content{padding-top: 20px;}
+#services{background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(../images/services.jpg);background-size: cover;background-position: center;color: #efefef!important;background-attachment: fixed;padding-top:50px;padding-bottom: 50px;}
+#services h1{text-align:center;color:#efefef!important;padding-bottom:10px;}
+#services h1::after{content:'';background: #efefef;display:block;height:3px;width:170px;margin:20px auto 5px;}
+.services{margin-top:40px;}
+.icon{font-size:35px;margin:20px auto;height:80px;width:80px;border:2px solid #fff;border-radius:50%;transition:0.3s;display: flex;justify-content: center; align-items: center;}
+#services p{font-size : 14px;margin-top:20px;color:#ccc;}
+.services .col-12:hover{background:#000000;color:#ffcd00;transition:all 0.3s;}
+.services .col-12:hover .icon{border-color: #ffcd00;transition: all 0.3s;}
+.services .col-12:hover .fa{transform: scale(1.1);transition: all 0.3s}
+
+/*team*/
+#team{padding-top:50px;padding-bottom:50px;color:#555;}
+h1{text-align:center;color:#555 !important;padding-bottom:10px;}
+h1::after{content:'';background:#007bff;display:block;height:3px;width:170px;margin:20px auto 5px;}
+.profile-pic{margin-top:25px;cursor: pointer;}
+.profile-pic .img-box{opacity:1;display:block;position:relative;}
+.profile-pic .img-box img{filter:grayscale(1);}
+.profile-pic:hover img{filter:grayscale(0);cursor:pointer;}
+.profile-pic h2{font-size: 22px;font-weight: bold;margin-top: 15px;color:#007bff !important;}
+.profile-pic h3{font-size:15px;font-weight:bold;margin-top:15px;}
+#team .fa{height:25px;width:25px;color:#007bff ;background:#fff;padding:4px;border-radius:50%;}
+.img-box ul{padding:10px 0;	position:absolute;z-index:2;bottom:0;left:50%;transform:translateX(-50%);opacity:0;}
+.img-box ul li{	padding:3px;display:inline-block;}
+.profile-pic:hover ul{opacity: 1;}
+.img-box ul, .img-box ul li {transition:0.5s;}
+
+/**GetinTouch**/
+#contact{background:#efefef;padding-top:40px;padding-bottom:40px;color:777;}
+.contact-form{padding:15px;}
+.form-control{border-radius:0 !important;border:none !important;}
+.contact-form input::placeholder{color:#999 !important;}
+.follow{background:#fff;padding:10px;margin:15px 0;}
+#contact table{width:100%}
+#contact .follow td{padding:10px;vertical-align: top}
+.d-inline-block{vertical-align:top;}
+.contact-info .fa{margin:3px 5px;color:#007bff;font-weight:bold;font-size:20px;margin-right:15px;}
+.pad_bot td{padding: 15px;}
+.yellow{color:#ffcd00; }
+.black{background-color:#000;color:#fff;padding:15px 0}
+.d-inline-block br{display: none}
+.d-inline-block br:last-child{display: block}
+
+@media (max-width:1199px) {
+.navbar-nav li{text-align: center;}
+.navbar-nav li a {float: none;text-align: center;}
+.d-inline-block br{display: block}
+.navbar-nav li a{font-size:20px;}
+}
+@media (max-width:992px) {
+.banner_height{height:350px;}
+.profile-pic .img-box img { filter: grayscale(0);}
+.img-box ul {left: 0;right: 0;transform: none;opacity: 1;}
+.icon{border-color: #ffcd00}
+.icon i{color: #ffcd00}
+.services h3{color: #ffcd00}
+
+}
+
+@media (max-width:768px) {
+	.banner h4{font-size:24px;}
+	.banner_content .col-12{position: inherit;}
+	.banner_height{height:300px;display: flex !important;justify-content: center;align-items: center;}
+	#team .container{width:100% !important;max-width: 100% !important}
+	.contact-info{margin-top: 30px;}
+	.navbar-nav li a{font-size:18px;}
+}
+@media (max-width:500px) {
+	.banner button.slick-next.slick-arrow:before{opacity: 1}
+	.banner button.slick-prev.slick-arrow:before {opacity: 1}
+	.banner button.slick-next.slick-arrow{right:10px;opacity: 1}
+	.banner button.slick-prev.slick-arrow{left:10px;opacity: 1}
+	.banner button.slick-next.slick-arrow:before,.banner button.slick-prev.slick-arrow:before {font-size:15px;color: #ffcd00}
+	.profile-pic {margin-bottom: 30px;cursor:auto;}
+	.banner h4{font-size:24px;}
+	.services{margin-top:10px;}
+	.services .col-12{padding-top:20px;padding-bottom:20px;}
+	a.navbar-brand img {max-width: 160px; height: auto;}
+} 
